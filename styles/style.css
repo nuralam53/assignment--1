@@ -39,7 +39,7 @@ body {
   padding: 100px;
 }
 .hero-img {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 .hero-title {
   color: #0d1321;
@@ -59,29 +59,164 @@ body {
   border-radius: 8px;
   background: rgb(13, 19, 33);
   padding: 20px;
-  /* margin-bottom: 25px; */
-}
-
-/* .hero-btn {
   width: 240px;
-  background-color: #0d1321;
-  color: #ffffff;
-  padding: 24px;
-  border-radius: 5px;
-} */
-/* .banner {
+  display: flex;
+  justify-content: center;
+}
+.banner-content {
   background-color: rgba(13, 19, 33, 0.02);
-  margin: 150px;
+  margin: 100px 150px 0px 150px;
+  padding: 80px 95px 80px 95px;
+  gap: 32px;
+}
+.banner-title {
+  text-align: center;
+  font-weight: 800px;
+  font-size: 25px;
+  color: #0d1321;
 }
 .banner-description {
+  font-size: 16px;
+  color: #0d1321;
   text-align: center;
 }
 .banner-card {
-  margin: 150px;
+  /* margin: 150px; */
   display: flex;
   justify-content: space-between;
   margin: 50px;
+  padding: 50px;
+  border-radius: 16px;
+  gap: 50px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.banner-card-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 16px;
+  border-radius: 16px;
+  gap: 50px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 .card-body {
   align-items: start;
-} */
+}
+.card-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+.card-description {
+  font-size: 16px;
+  color: #0d1321;
+}
+.card-btn {
+  font-weight: 500px;
+  font-size: 20px;
+  color: #0d1321;
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+}
+.Inspiration {
+  text-align: center;
+  margin-top: 0px;
+}
+.Inspiration-title {
+  color: #0d1321;
+  font-size: 32px;
+  font-weight: 700px;
+}
+.Inspiration-description {
+  font-size: 16px;
+  text-align: center;
+  margin: 0px 150px 0px 150px;
+}
+.iframe {
+  margin: 0px 150px 0px 150px;
+  margin-top: 100px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+iframe {
+  padding: 20px;
+  position: static;
+  width: 1076px;
+  height: 500px;
+}
+.target {
+  margin: 150px;
+}
+.target-title {
+  text-align: center;
+  color: #0d1321;
+  font-size: 32px;
+  font-weight: 900px;
+}
+.target-description {
+  text-align: center;
+  color: #0d1321;
+  font-size: 16px;
+}
+.target-container {
+  display: flex;
+  gap: 24px;
+}
+.target-html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.target-css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+.target-js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+.next-target {
+  margin: 0px 150px 0px 150px;
+}
+.next-target-head {
+  text-align: center;
+}
+.next-target-title {
+  font-size: 32px;
+  font-weight: 900px;
+  color: #0d1321;
+  margin-top: 0px;
+}
+.next-target-container {
+  display: flex;
+  border: 1px solid;
+  padding: 20px;
+}
+.next-target-list {
+  gap: 24px;
+}
+.footer {
+  width: 1040px;
+  margin: 150px;
+}
+.f-content {
+  background-image: url("../assets/handshake.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+  padding: 50px;
+}
